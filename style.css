@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "MyFont";
+    src: url("main.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: #ffad55;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "MyFont";
+}
+
+.intro {
+    width: 100%;
+    text-align: center;
+}

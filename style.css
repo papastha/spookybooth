@@ -15,7 +15,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 
-    color: #ffad55;
+    color: black;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -26,4 +26,9 @@ body {
 .intro {
     width: 100%;
     text-align: center;
+}
+
+#spookybooth {
+    opacity: 0;
+    transition: opacity 1s ease;
 }
